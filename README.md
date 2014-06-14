@@ -6,9 +6,8 @@ A Dockerized Bitcoin instance for development and testing purposes.
 Install Docker on Linux, OS X or Windows. Read "[Getting started](https://www.docker.io/gettingstarted/)" with Docker.
 
 ```
-$ git clone http://github.com/slickage/docker-bitcoin.git
-$ cd docker-bitcoin
-$ curl -O https://bitcoin.org/bin/0.9.0/bitcoin-0.9.0-linux.tar.gz
+$ git clone http://github.com/slickage/docker-bitcoind.git
+$ cd docker-bitcoind
 $ sudo docker build -t bitcoind .
 ```
 
